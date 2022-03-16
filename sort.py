@@ -7,7 +7,7 @@ from insertion_sort import insertionSort
 
 root = Tk()
 root.title('SORTING ALGORITHM VISUALIZER BY ADITYA SAINI ❤')
-root.geometry("745x600")
+root.geometry("745x700")
 root.minsize(745,600)
 root.maxsize(800,650)
 root.config(bg='orange')
@@ -56,7 +56,6 @@ def sorting():
     global arr
     bubble_sort(arr, drawrectangle, sortingspeed.get())
     insertionSort(arr, drawrectangle, sortingspeed.get())
-
 
 #GUI CODING PART
 
